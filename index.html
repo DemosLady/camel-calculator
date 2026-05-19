@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z5RGZRN1YF"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Z5RGZRN1YF');</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camel Calculator 🐫 — How Many Camels Is Your Partner Worth? | The Original</title>
+  <meta name="description" content="The most unhinged camel calculator on the internet. Find out how many camels your partner, friend, or crush is worth. Scientifically inaccurate. Emotionally devastating.">
+  <meta name="keywords" content="camel calculator, how many camels, camel worth, funny calculator, partner calculator, relationship quiz, camel meme, how many camels is my girlfriend worth, how many camels boyfriend">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://camel-calculator.vercel.app/">
+  <meta property="og:title" content="Camel Calculator 🐫 — How Many Camels?">
+  <meta property="og:description" content="The most unhinged camel calculator. Scientifically inaccurate. Emotionally devastating.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Camel Calculator","description":"Find out how many camels your partner is worth with this satirical calculator.","url":"https://camel-calculator.vercel.app/","applicationCategory":"EntertainmentApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"demosaii"}}</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7675527666098811" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Gaegu:wght@400;700&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --sand: #F5E6C8;
+      --sand2: #EDD9B3;
+      --sand3: #E5CFA3;
+      --dune: #D4B483;
+      --sky: #1B1464;
+      --sky2: #2E236C;
+      --sunset: #FF6B35;
+      --gold: #FFD700;
+      --pink: #FF69B4;
+      --teal: #00D4AA;
+      --red: #FF4757;
+      --purple: #A855F7;
+      --ink: #1a1a2e;
+      --text2: #8A7A6A;
+      --fh: 'Lilita One', cursive;
+      --fc: 'Gaegu', cursive;
+      --fb: 'Outfit', sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: linear-gradient(180deg, #1B1464 0%, #2E236C 30%, #4A2C82 50%, #FF6B35 75%, #FFB347 85%, var(--sand) 95%);
+      background-attachment: fixed;
+      min-height: 100vh; overflow-x: hidden;
+      font-family: var(--fb);
+      color: #fff;
+    }
+
+    /* STARS */
+    .stars { position: fixed; top: 0; left: 0; right: 0; height: 55vh; pointer-events: none; z-index: 0; overflow: hidden; }
+    .star {
+      position: absolute; background: #fff; border-radius: 50%;
+      animation: twinkle var(--d, 3s) ease-in-out infinite alternate;
+    }
+    @keyframes twinkle { 0% { opacity: 0.2; transform: scale(0.8); } 100% { opacity: 1; transform: scale(1.2); } }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes wobble { 0%,100% { transform: rotate(0); } 25% { transform: rotate(-5deg); } 75% { transform: rotate(5deg); } }
+    @keyframes bounceIn { 0% { transform: scale(0); } 60% { transform: scale(1.2); } 100% { transform: scale(1); } }
+    @keyframes countUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    @keyframes camelWalk { 0% { transform: translateX(-30px); } 50% { transform: translateX(30px); } 100% { transform: translateX(-30px); } }
+    @keyframes sandBlow { 0%,100% { opacity: 0.3; transform: translateX(0); } 50% { opacity: 0.6; transform: translateX(20px); } }
+    @keyframes dramaSpin { 0% { transform: rotate(0) scale(0); opacity: 0; } 50% { transform: rotate(180deg) scale(1.3); opacity: 1; } 100% { transform: rotate(360deg) scale(1); opacity: 1; } }
+    @keyframes confettiFall { 0% { transform: translateY(-10px) rotate(0); opacity: 1; } 100% { transform: translateY(80px) rotate(720deg); opacity: 0; } }
+    @keyframes slideRight { from { transform: translateX(-100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+    @keyframes glowPulse { 0%,100% { text-shadow: 0 0 20px rgba(255,215,0,0.3); } 50% { text-shadow: 0 0 40px rgba(255,215,0,0.8), 0 0 80px rgba(255,107,53,0.4); } }
+
+    .ad-slot { text-align: center; overflow: hidden; margin: 0 auto; }
+    .wrap { max-width: 560px; margin: 0 auto; padding: 0 14px; position: relative; z-index: 1; }
+
+    /* HEADER */
+    .hdr {
+      max-width: 700px; margin: 0 auto; padding: 10px 20px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: relative; z-index: 10;
+    }
+    .logo { font-family: var(--fh); font-size: 18px; color: var(--gold); text-decoration: none; text-shadow: 0 2px 8px rgba(0,0,0,0.3); }
+
+    /* HERO */
+    .hero { text-align: center; padding: 30px 16px 10px; animation: fadeUp .8s ease; }
+    .hero-camel { font-size: 72px; display: inline-block; animation: camelWalk 4s ease-in-out infinite; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3)); }
+    .hero h1 {
+      font-family: var(--fh); font-size: clamp(30px, 7vw, 52px);
+      color: var(--gold); line-height: 1.1;
+      text-shadow: 0 3px 12px rgba(0,0,0,0.4), 0 0 40px rgba(255,215,0,0.2);
+    }
+    .hero h1 .sub-line { display: block; font-size: clamp(16px, 3.5vw, 24px); color: var(--sand); margin-top: 4px; font-family: var(--fc); text-shadow: none; }
+    .hero .tagline {
+      font-family: var(--fc); font-size: clamp(13px, 2.5vw, 17px);
+      color: rgba(255,255,255,0.7); margin-top: 12px; line-height: 1.6;
+    }
+    .hero .disclaimer {
+      display: inline-block; margin-top: 10px; padding: 5px 16px;
+      background: rgba(255,71,87,0.2); border: 1px solid rgba(255,71,87,0.3);
+      border-radius: 50px; font-size: 10px; color: var(--red); letter-spacing: .5px;
+    }
+    .start-btn {
+      display: inline-block; margin-top: 16px;
+      padding: 16px 52px; font-size: 20px; font-family: var(--fh);
+      background: linear-gradient(135deg, var(--sunset), #FF8C42);
+      color: #fff; border: none; border-radius: 50px; cursor: pointer;
+      box-shadow: 0 6px 0 #CC5522, 0 8px 30px rgba(255,107,53,0.4);
+      transition: all .15s; letter-spacing: 1px;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+    .start-btn:hover { transform: translateY(-3px); box-shadow: 0 9px 0 #CC5522, 0 12px 36px rgba(255,107,53,0.5); }
+    .start-btn:active { transform: translateY(3px); box-shadow: 0 3px 0 #CC5522; }
+
+    /* QUESTION CARD */
+    .qcard {
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 24px; padding: 24px 18px;
+      margin: 12px 0; min-height: 300px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+      animation: fadeUp .5s ease;
+    }
+
+    .q-prog { display: flex; gap: 4px; margin-bottom: 16px; }
+    .q-dot {
+      flex: 1; height: 5px; border-radius: 3px;
+      background: rgba(255,255,255,0.1); transition: all .3s;
+    }
+    .q-dot.done { background: var(--gold); }
+    .q-dot.cur { background: var(--sunset); box-shadow: 0 0 8px rgba(255,107,53,0.5); }
+
+    .q-num { font-family: var(--fc); font-size: 13px; color: rgba(255,255,255,0.4); text-align: center; }
+    .q-emoji { text-align: center; font-size: 40px; margin: 8px 0; }
+    .q-text { font-family: var(--fh); font-size: clamp(18px, 4vw, 24px); text-align: center; color: #fff; line-height: 1.3; margin-bottom: 16px; }
+
+    .opts { display: flex; flex-direction: column; gap: 8px; }
+    .opt-btn {
+      padding: 14px 18px; font-size: 15px; font-family: var(--fb); font-weight: 600;
+      background: rgba(255,255,255,0.06); border: 2px solid rgba(255,255,255,0.12);
+      border-radius: 14px; cursor: pointer; color: #fff; text-align: left;
+      transition: all .2s; display: flex; align-items: center; gap: 10px;
+    }
+    .opt-btn:hover { background: rgba(255,107,53,0.15); border-color: var(--sunset); transform: translateX(4px); }
+    .opt-btn .opt-emoji { font-size: 20px; }
+    .opt-btn .opt-val { display: none; }
+
+    /* LOADING */
+    .loading { text-align: center; padding: 40px 0; }
+    .loading-camels { font-size: 48px; display: flex; justify-content: center; gap: 8px; margin-bottom: 16px; }
+    .loading-camels span { display: inline-block; animation: wobble 1s ease infinite; }
+    .loading-camels span:nth-child(2) { animation-delay: .2s; }
+    .loading-camels span:nth-child(3) { animation-delay: .4s; }
+    .loading-text { font-family: var(--fc); font-size: 18px; color: var(--sand); }
+    .loading-sub { font-family: var(--fc); font-size: 13px; color: rgba(255,255,255,0.4); margin-top: 6px; }
+    .loading-bar { width: 200px; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; margin: 16px auto; overflow: hidden; }
+    .loading-fill { height: 100%; background: linear-gradient(90deg, var(--sunset), var(--gold)); border-radius: 3px; animation: loadFill 3s ease forwards; }
+    @keyframes loadFill { from { width: 0; } to { width: 100%; } }
+
+    /* RESULTS */
+    .result { text-align: center; animation: fadeUp .6s ease; }
+    .result-drama { font-size: 14px; color: var(--sunset); font-family: var(--fc); letter-spacing: 4px; margin-bottom: 6px; }
+    .result-number {
+      font-family: var(--fh); font-size: clamp(64px, 16vw, 100px);
+      color: var(--gold); line-height: 1;
+      animation: glowPulse 2s ease infinite;
+      text-shadow: 0 4px 20px rgba(255,215,0,0.4);
+    }
+    .result-unit { font-family: var(--fh); font-size: clamp(20px, 5vw, 32px); color: var(--sand); }
+    .result-camels { font-size: 36px; margin: 8px 0; word-spacing: 4px; line-height: 1.4; }
+    .result-verdict {
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 16px; padding: 16px; margin: 14px auto; max-width: 400px;
+    }
+    .verdict-label { font-size: 10px; color: var(--sunset); letter-spacing: 3px; font-family: var(--fh); margin-bottom: 6px; }
+    .verdict-text { font-family: var(--fc); font-size: 16px; color: #fff; line-height: 1.6; }
+    .result-breakdown {
+      text-align: left; background: rgba(0,0,0,0.15); border-radius: 14px;
+      padding: 14px 16px; margin: 14px auto; max-width: 380px;
+    }
+    .bd-title { font-family: var(--fh); font-size: 13px; color: var(--gold); margin-bottom: 8px; }
+    .bd-row { display: flex; justify-content: space-between; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 13px; }
+    .bd-row:last-child { border: none; }
+    .bd-label { color: rgba(255,255,255,0.6); }
+    .bd-val { color: var(--gold); font-weight: 700; }
+    .bd-val.neg { color: var(--red); }
+    .bd-val.pos { color: var(--teal); }
+
+    .btn-row { display: flex; gap: 8px; justify-content: center; margin-top: 14px; flex-wrap: wrap; }
+    .btn {
+      padding: 10px 22px; font-family: var(--fh); font-size: 13px;
+      border-radius: 50px; cursor: pointer; transition: all .2s; border: 2px solid;
+    }
+    .btn-share { background: var(--sunset); border-color: #CC5522; color: #fff; box-shadow: 0 3px 0 #CC5522; }
+    .btn-share:hover { transform: translateY(-2px); }
+    .btn-again { background: transparent; border-color: rgba(255,255,255,0.2); color: rgba(255,255,255,0.7); }
+    .btn-again:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* CONFETTI */
+    .confetti-wrap { position: fixed; top: 0; left: 0; right: 0; pointer-events: none; z-index: 999; }
+    .conf { position: absolute; border-radius: 2px; animation: confettiFall 2.5s ease-out forwards; }
+
+    .seo { max-width: 560px; margin: 32px auto; padding: 0 16px; }
+    .seo h2 { font-family: var(--fh); color: var(--gold); font-size: 16px; margin: 20px 0 6px; }
+    .seo p { color: rgba(255,255,255,0.5); font-size: 12px; line-height: 1.7; }
+    .footer { text-align: center; padding: 16px; color: rgba(255,255,255,0.25); font-size: 10px; }
+  </style>
+</head>
+<body>
+
+<div class="stars" id="stars"></div>
+
+<header class="hdr">
+  <a href="/" class="logo">🐫 CAMEL CALC</a>
+</header>
+
+<div class="ad-slot" style="max-width:728px;margin:4px auto;"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7675527666098811" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
+
+<div class="wrap" id="app"></div>
+
+<section class="seo">
+  <h2>🐫 What Is the Camel Calculator?</h2>
+  <p>The Camel Calculator is the internet's most scientifically inaccurate way to determine how many camels your partner, friend, or crush is worth. Based on absolutely zero research and 100% vibes.</p>
+  <h2>🤔 How Does It Work?</h2>
+  <p>Answer 10 deeply important questions about your person's qualities — from cooking skills to their Netflix habits. Our advanced algorithm (a guy named Dave with a calculator) converts this into camels.</p>
+  <h2>📊 Is This Accurate?</h2>
+  <p>Absolutely not. This is for entertainment purposes only. No actual camels were harmed, traded, or consulted in the making of this calculator. Please do not attempt to trade humans for camels. Or camels for humans.</p>
+</section>
+
+<div class="ad-slot" style="max-width:728px;margin:0 auto 10px;"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7675527666098811" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
+
+<footer class="footer">&copy; 2026 Camel Calculator by demosaii · No camels were harmed 🐫</footer>
+
+<script>
+// Generate stars
+const starsEl = document.getElementById('stars');
+for (let i = 0; i < 80; i++) {
+  const s = document.createElement('div');
+  s.className = 'star';
+  const sz = 1 + Math.random() * 2;
+  s.style.cssText = `width:${sz}px;height:${sz}px;left:${Math.random()*100}%;top:${Math.random()*100}%;--d:${2+Math.random()*4}s;animation-delay:${Math.random()*3}s;`;
+  starsEl.appendChild(s);
+}
+
+const QS = [
+  {
+    emoji: '👨‍🍳', q: 'How are their cooking skills?',
+    opts: [
+      {t: '🔥 Gordon Ramsay would cry (happy tears)', v: 12, e: '🔥'},
+      {t: '👩‍🍳 Solid — won\'t poison you', v: 8, e: '👩‍🍳'},
+      {t: '🍳 Can make eggs... sometimes', v: 4, e: '🍳'},
+      {t: '☎️ Speed dial to every delivery app', v: 1, e: '☎️'},
+    ]
+  },
+  {
+    emoji: '😂', q: 'How funny are they?',
+    opts: [
+      {t: 'Stand-up comedian energy', v: 10, e: '🎤'},
+      {t: 'Makes me snort-laugh in public', v: 8, e: '😂'},
+      {t: 'Dad jokes. So many dad jokes.', v: 5, e: '👴'},
+      {t: 'Their humor is... an acquired taste', v: 2, e: '😐'},
+    ]
+  },
+  {
+    emoji: '🛋️', q: 'Netflix situation?',
+    opts: [
+      {t: 'Always picks the perfect show', v: 9, e: '🎬'},
+      {t: 'Watches with me, no phone', v: 7, e: '📱'},
+      {t: 'Falls asleep 10 minutes in', v: 4, e: '😴'},
+      {t: 'Spoils every single plot twist', v: -3, e: '🤬'},
+    ]
+  },
+  {
+    emoji: '🧹', q: 'Cleanliness level?',
+    opts: [
+      {t: 'Marie Kondo would approve', v: 10, e: '✨'},
+      {t: 'Clean enough for surprise guests', v: 7, e: '🏠'},
+      {t: 'Has a "creative mess" philosophy', v: 3, e: '🎨'},
+      {t: 'Their room has its own ecosystem', v: -2, e: '🦠'},
+    ]
+  },
+  {
+    emoji: '💪', q: 'Can they open jars?',
+    opts: [
+      {t: 'Opens jars AND carries all grocery bags in one trip', v: 11, e: '🦾'},
+      {t: 'Jars? No problem.', v: 7, e: '💪'},
+      {t: 'Needs the rubber grip thing', v: 4, e: '🫠'},
+      {t: 'I open the jars in this relationship', v: 2, e: '🙄'},
+    ]
+  },
+  {
+    emoji: '🐕', q: 'How do animals react to them?',
+    opts: [
+      {t: 'Disney princess — birds literally land on them', v: 12, e: '🐦'},
+      {t: 'Dogs love them, cats tolerate them', v: 8, e: '🐕'},
+      {t: 'Animals are neutral', v: 4, e: '🤷'},
+      {t: 'Animals sense something we don\'t...', v: -1, e: '🙀'},
+    ]
+  },
+  {
+    emoji: '📱', q: 'Texting game?',
+    opts: [
+      {t: 'Perfect response time, peak emoji usage', v: 9, e: '💬'},
+      {t: 'Good — replies within the hour', v: 6, e: '👍'},
+      {t: '"K" and "lol" enjoyer', v: 2, e: '😑'},
+      {t: 'Leaves you on read as a power move', v: -2, e: '👻'},
+    ]
+  },
+  {
+    emoji: '🎵', q: 'Music taste?',
+    opts: [
+      {t: 'Impeccable. We share playlists.', v: 10, e: '🎧'},
+      {t: 'Different but respects mine', v: 7, e: '🎵'},
+      {t: 'Plays one song on repeat forever', v: 3, e: '🔁'},
+      {t: 'Unironically loves elevator music', v: 0, e: '🛗'},
+    ]
+  },
+  {
+    emoji: '🧠', q: 'Are they street smart?',
+    opts: [
+      {t: 'Could survive a zombie apocalypse', v: 11, e: '🧟'},
+      {t: 'Handles situations with ease', v: 8, e: '😎'},
+      {t: 'Book smart but walks into glass doors', v: 5, e: '📚'},
+      {t: 'Once got lost in a parking lot', v: 1, e: '🅿️'},
+    ]
+  },
+  {
+    emoji: '❤️', q: 'THE BIG ONE: How do they make you feel?',
+    opts: [
+      {t: 'Like the main character in a movie', v: 15, e: '🌟'},
+      {t: 'Safe, warm, and appreciated', v: 12, e: '🥰'},
+      {t: 'Pretty good most days', v: 7, e: '😊'},
+      {t: 'Like a side quest NPC', v: 1, e: '🎮'},
+    ]
+  },
+];
+
+const VERDICTS = [
+  {min:0,max:20,title:'BARGAIN BIN',emoji:'💀',
+   texts:['This person couldn\'t be traded for a camel\'s SHADOW. The camel market has spoken.','The camels held a meeting. They said no. Unanimously.','Even the budget camels walked away from this deal.']},
+  {min:21,max:45,title:'ECONOMY CLASS',emoji:'😬',
+   texts:['A few camels, sure. But the camels are asking questions.','The camel dealer squinted and said "...ehhhh." That\'s the official appraisal.','Respectable. Not impressive. The camels would describe this as "mid."']},
+  {min:46,max:70,title:'PREMIUM LISTING',emoji:'💎',
+   texts:['Now we\'re talking! Multiple camels are being loaded onto trucks as we speak.','The camel traders are fighting over this one. Bidding war energy.','Solid camel portfolio. Your person has blue-chip camel stock.']},
+  {min:71,max:90,title:'LEGENDARY STATUS',emoji:'👑',
+   texts:['The sheikh called. He wants to negotiate. Bring lawyers.','This person is worth a HERD. An actual, full, grass-eating HERD.','Camel billionaire territory. The desert economy just shifted.']},
+  {min:91,max:999,title:'OFF THE CHARTS',emoji:'🐫👑🌟',
+   texts:['ERROR: Not enough camels in existence. We need to breed more.','The entire Sahara doesn\'t have enough camels. We\'re importing from Mars.','This breaks the calculator. Your person is worth the entire Silk Road.']},
+];
+
+let S = { screen: 'home', qi: 0, answers: [], score: 0 };
+const app = document.getElementById('app');
+
+function confetti() {
+  const w = document.createElement('div');
+  w.className = 'confetti-wrap';
+  document.body.appendChild(w);
+  const colors = ['#FFD700','#FF6B35','#FF69B4','#00D4AA','#A855F7','#FF4757','#5B8DEF'];
+  for (let i = 0; i < 50; i++) {
+    const p = document.createElement('div');
+    p.className = 'conf';
+    const sz = 5 + Math.random() * 8;
+    p.style.cssText = `left:${Math.random()*100}%;top:-10px;width:${sz}px;height:${sz*0.6}px;background:${colors[Math.floor(Math.random()*colors.length)]};animation-delay:${Math.random()*2}s;animation-duration:${2+Math.random()*1.5}s;border-radius:${Math.random()>0.5?'50%':'2px'};`;
+    w.appendChild(p);
+  }
+  setTimeout(() => w.remove(), 4000);
+}
+
+function render() {
+  if (S.screen === 'home') renderHome();
+  else if (S.screen === 'question') renderQuestion();
+  else if (S.screen === 'loading') renderLoading();
+  else renderResult();
+}
+
+function renderHome() {
+  app.innerHTML = `<section class="hero">
+    <div class="hero-camel">🐫</div>
+    <h1>CAMEL CALCULATOR
+      <span class="sub-line">How many camels is your person worth?</span>
+    </h1>
+    <p class="tagline">Answer 10 absurd questions.<br>Get an extremely scientific camel valuation.</p>
+    <div class="disclaimer">⚠️ 0% scientifically accurate · 100% emotionally devastating</div>
+    <br><button class="start-btn" onclick="start()">Calculate Camels 🐫</button>
+  </section>`;
+}
+
+function renderQuestion() {
+  const q = QS[S.qi];
+  app.innerHTML = `<div class="qcard">
+    <div class="q-prog">${QS.map((_, i) => `<div class="q-dot ${i < S.qi ? 'done' : i === S.qi ? 'cur' : ''}"></div>`).join('')}</div>
+    <div class="q-num">Question ${S.qi + 1} of ${QS.length}</div>
+    <div class="q-emoji">${q.emoji}</div>
+    <div class="q-text">${q.q}</div>
+    <div class="opts">
+      ${q.opts.map((o, i) => `<button class="opt-btn" onclick="answer(${o.v})" style="animation:slideRight .4s ease ${i * 0.1}s backwards">
+        <span class="opt-emoji">${o.e}</span>
+        <span>${o.t}</span>
+      </button>`).join('')}
+    </div>
+  </div>`;
+}
+
+function renderLoading() {
+  const msgs = [
+    'Consulting the camels...',
+    'Counting humps...',
+    'Negotiating with desert traders...',
+    'Converting vibes to camels...',
+    'Running advanced hump algorithms...',
+  ];
+  const msg = msgs[Math.floor(Math.random() * msgs.length)];
+  const sub = ['This is very scientific.','The camels are deliberating.','Please hold — desert WiFi is slow.','A camel just spat. That\'s a good sign.'][Math.floor(Math.random()*4)];
+
+  app.innerHTML = `<div class="qcard"><div class="loading">
+    <div class="loading-camels"><span>🐫</span><span>🐫</span><span>🐫</span></div>
+    <div class="loading-text">${msg}</div>
+    <div class="loading-sub">${sub}</div>
+    <div class="loading-bar"><div class="loading-fill"></div></div>
+  </div></div>`;
+
+  setTimeout(() => { S.screen = 'result'; render(); confetti(); }, 3200);
+}
+
+function renderResult() {
+  // Calculate camels from score
+  const raw = S.score;
+  // Map score (-15 to ~110) to camels (1-150)
+  let camels = Math.max(1, Math.round((raw + 15) * 1.2));
+  // Add some randomness
+  camels = Math.max(1, camels + Math.floor(Math.random() * 6) - 3);
+
+  const v = VERDICTS.find(v => camels >= v.min && camels <= v.max) || VERDICTS[VERDICTS.length - 1];
+  const verdict = v.texts[Math.floor(Math.random() * v.texts.length)];
+
+  // Camel emoji string
+  const displayCamels = Math.min(camels, 30);
+  const camelStr = '🐫'.repeat(displayCamels) + (camels > 30 ? ` +${camels - 30} more` : '');
+
+  // Breakdown
+  const breakdown = QS.map((q, i) => {
+    const val = S.answers[i];
+    const maxVal = Math.max(...q.opts.map(o => o.v));
+    return { label: q.emoji + ' ' + q.q.replace('?',''), val, max: maxVal };
+  });
+
+  const shareText = `🐫 Camel Calculator Result:\nMy person is worth ${camels} CAMELS!\n${v.emoji} ${v.title}\nhttps://camel-calculator.vercel.app/`;
+
+  app.innerHTML = `<div class="qcard"><div class="result">
+    <div class="result-drama">THE RESULTS ARE IN</div>
+    <div class="result-number" style="animation:dramaSpin 1s ease">${camels}</div>
+    <div class="result-unit">C A M E L S</div>
+    <div class="result-camels">${camelStr}</div>
+
+    <div class="result-verdict">
+      <div class="verdict-label">${v.emoji} ${v.title}</div>
+      <div class="verdict-text">${verdict}</div>
+    </div>
+
+    <div class="result-breakdown">
+      <div class="bd-title">📊 DETAILED BREAKDOWN</div>
+      ${breakdown.map(b => {
+        const cls = b.val >= b.max * 0.7 ? 'pos' : b.val <= 0 ? 'neg' : '';
+        const sign = b.val > 0 ? '+' : '';
+        return `<div class="bd-row"><span class="bd-label">${b.label}</span><span class="bd-val ${cls}">${sign}${b.val} 🐫</span></div>`;
+      }).join('')}
+    </div>
+
+    <div class="btn-row">
+      <button class="btn btn-share" onclick="share()">Share Result 📤</button>
+      <button class="btn btn-again" onclick="restart()">Try Again 🔄</button>
+    </div>
+  </div></div>`;
+}
+
+function start() {
+  S = { screen: 'question', qi: 0, answers: [], score: 0 };
+  render();
+}
+
+function answer(val) {
+  S.answers.push(val);
+  S.score += val;
+  S.qi++;
+  if (S.qi >= QS.length) {
+    S.screen = 'loading';
+  } else {
+    S.screen = 'question';
+  }
+  render();
+}
+
+function restart() { S.screen = 'home'; render(); window.scrollTo(0, 0); }
+
+function share() {
+  const raw = S.score;
+  let camels = Math.max(1, Math.round((raw + 15) * 1.2));
+  const v = VERDICTS.find(v => camels >= v.min && camels <= v.max) || VERDICTS[VERDICTS.length - 1];
+  const t = `🐫 Camel Calculator:\nMy person is worth ${camels} CAMELS!\n${v.emoji} ${v.title}\nhttps://camel-calculator.vercel.app/`;
+  if (navigator.share) navigator.share({ title: 'Camel Calculator', text: t });
+  else if (navigator.clipboard) { navigator.clipboard.writeText(t); alert('Copied! 🐫📋'); }
+}
+
+render();
+</script>
+</body>
+</html>
